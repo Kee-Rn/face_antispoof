@@ -37,26 +37,7 @@ Learn how face anti-spoofing systems work
 
 This project represents learning through AI-assisted development, not independent research.
 
-🗂️ Project Structure
-face_antispoof/
-│
-├── 00_capture_data.py        # Collect custom real & spoof images (optional)
-├── 01_organize_data.py       # Organize NUAA dataset into train/test
-├── 02_train_nuaa.py          # Train CNN model
-├── convert_final.py          # Convert TensorFlow model to ONNX
-├── 03_run_live.py            # Run real-time anti-spoof detection
-│
-├── dataset/
-│   ├── train/
-│   │   ├── real/
-│   │   └── spoof/
-│   └── test/
-│       ├── real/
-│       └── spoof/
-│
-├── saved_model_tf/           # TensorFlow SavedModel (generated)
-├── nuaa_antispoof.onnx       # Final ONNX model (generated)
-└── README.md
+
 
 🧪 Dataset Used
 
